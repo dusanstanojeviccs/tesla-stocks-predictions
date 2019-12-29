@@ -10,6 +10,31 @@ pandas, matplotlib, numpy, pytorch, sklearn, pickle
 You can install them by running:
 ```pip install pandas matplotlib numpy pytorch sklearn pickle```
 
+### Results
+
+Visualizing the data by showing it on a line graph
+
+![Prices Line](https://raw.githubusercontent.com/dusanstanojeviccs/tesla-stocks-predictions/master/results/prices_line.png)
+
+Visualizing the last 10 weeks of data by using the box and whiskers plots
+
+![Prices Last 10 Weeks](https://raw.githubusercontent.com/dusanstanojeviccs/tesla-stocks-predictions/master/results/prices_box.png)
+
+LSTM model training loss
+
+![LSTM Loss](https://raw.githubusercontent.com/dusanstanojeviccs/tesla-stocks-predictions/master/results/lstm_loss.png)
+
+Regular (non temporal model) training loss
+
+![Regular Loss](https://raw.githubusercontent.com/dusanstanojeviccs/tesla-stocks-predictions/master/results/regular_loss.png)
+
+Inference
+
+![Inference](https://raw.githubusercontent.com/dusanstanojeviccs/tesla-stocks-predictions/master/results/inference.png)
+
+
+
+
 ### Contribute
 
 Feel free to file issues on github, open pull requests with improvements, or reach out with suggestions to dusan.stanojevic.cs@gmail.com.
